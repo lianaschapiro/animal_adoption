@@ -9,17 +9,28 @@ body {
 	color: #778899;
 }
 
+a{
+	text-decoration: none;
+	color:#778899;
+	font-size: 20px;
+}
+
+a:hover{
+	color:white;
+}
 .header {
 	height: 100px;
 	color: white;
 	text-align: center;
+	padding-top: 35px;
 }
 
 nav {
+	padding-top:40px;
 	list-style-type: none;
 	text-align: center;
 	width: 100%;
-	min-height: 550px;
+	height: 550px;
 }
 
 nav li {
@@ -28,32 +39,40 @@ nav li {
 	padding-bottom: 10px;
 }
 
-h1{
+#main h1{
+	margin:40px;
 	text-align: center;
 }
 #sidebar {
 	background-color: #c8c8c8;
 	float: left;
 	width: 20%;
+	height:550px;
 }
 
 #main {
 	background-color: #f8f8f8;
 	float: left;
 	width: 80%;
-	min-height: 550px;
+	height: 550px;
 }
 
 #footer {
+	background-color: black;
 	clear: both;
 	height: 80px;
 }
 
 p{
+	margin: 20px 20px 0 20px;
 	text-align: center;
 }
 
 img{
+	border:solid 1px black;
+	border-radius: 25px;
 	width:400px;
 	height:auto;
+	margin-top: 5%;
+	margin-left: 30%;
 }
