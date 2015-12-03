@@ -5,11 +5,14 @@
 
 body {
 	background-color: black;
+	font-family: Tahoma;
+	color: #778899;
 }
 
 .header {
 	height: 100px;
 	color: white;
+	text-align: center;
 }
 
 nav {
@@ -25,6 +28,9 @@ nav li {
 	padding-bottom: 10px;
 }
 
+h1{
+	text-align: center;
+}
 #sidebar {
 	background-color: #c8c8c8;
 	float: left;
@@ -41,4 +47,13 @@ nav li {
 #footer {
 	clear: both;
 	height: 80px;
+}
+
+p{
+	text-align: center;
+}
+
+img{
+	width:400px;
+	height:auto;
 }
