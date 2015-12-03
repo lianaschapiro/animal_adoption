@@ -1,0 +1,26 @@
+.header {
+	background-color: black;
+}
+
+nav {
+	list-style-type: none;
+	text-align: center;
+}
+
+nav li {
+	margin: 0 auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#sidebar {
+	background-color: #c8c8c8;
+}
+
+#main {
+	background-color: #f8f8f8;
+}
+
+#footer {
+	background-color: #c8c8c8;
+}
