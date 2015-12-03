@@ -1,10 +1,21 @@
-.header {
+* {
+	margin:0;
+	padding: 0;
+}
+
+body {
 	background-color: black;
+}
+
+.header {
+	height: 100px;
 }
 
 nav {
 	list-style-type: none;
 	text-align: center;
+	width: 100%;
+	min-height: 550px;
 }
 
 nav li {
@@ -15,12 +26,18 @@ nav li {
 
 #sidebar {
 	background-color: #c8c8c8;
+	float: left;
+	width: 20%;
 }
 
 #main {
 	background-color: #f8f8f8;
+	float: left;
+	width: 80%;
+	min-height: 550px;
 }
 
 #footer {
-	background-color: #c8c8c8;
+	clear: both;
+	height: 80px;
 }
